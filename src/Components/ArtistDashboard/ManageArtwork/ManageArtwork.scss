@@ -1,0 +1,112 @@
+th,
+td {
+  font-size: 14px;
+}
+th {
+  background: #f1f1f1 !important;
+  padding: 16px 8px !important;
+  border: none !important;
+  // font-family: "El Messiri", sans-serif !important;
+}
+.border-radius-6pxf {
+  border-radius: 6px 0 0 6px;
+}
+.border-radius-6pxl {
+  border-radius: 0 6px 6px 0;
+}
+td {
+  padding: 16px 8px !important;
+  border: none;
+  border-bottom: 0.5px solid #f1f1f1 !important;
+  vertical-align: middle !important;
+  font-weight: 400 !important;
+  // font-family: "El Messiri", sans-serif !important;
+}
+* {
+  font-family: "El Messiri", sans-serif;
+}
+.e-con {
+  max-width: 1300px;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+.image-pd {
+  border-radius: 5px;
+}
+.w-70 {
+  width: 70%;
+}
+.br-30 {
+  border-radius: 30px !important;
+}
+.ml-9 {
+  margin-left: 9rem;
+}
+.table-div {
+  overflow-x: auto;
+}
+
+@media (max-width: 768px) {
+  table {
+    font-size: 0.875rem;
+  }
+
+  td,
+  th {
+    padding: 0.5rem;
+    white-space: nowrap;
+  }
+
+  .f-12 {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .bg-success {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .fw-bold {
+    font-size: 1rem;
+  }
+}
+.table-container {
+  max-height: 400px; // Adjust height as needed
+  overflow-y: auto;
+  position: relative;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  background-color: white; // Ensure the header has a background
+  z-index: 1; // Ensure the header stays above the scrolling rows
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  background-color: #f8f9fa;
+  z-index: 1;
+}
+
+.table-container {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}

@@ -1,0 +1,182 @@
+.footer {
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    align-items: center;
+    background-color: #fff;
+    background-image: none;
+    min-height: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    p {
+      font-size: 16px;
+      color: #4e5652;
+      margin-bottom: 10px;
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+        Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+    }
+
+    .footer-center {
+      a {
+        padding: 0 8px;
+        text-decoration: none;
+        color: #1bae70;
+        font-size: 16px;
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+          Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+.form-label {
+  display: block;
+  font-weight: 700;
+  font-style: normal;
+  word-break: break-word;
+  word-wrap: break-word;
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+.form-control {
+  border-radius: 4px !important;
+  border: 1px solid gray;
+  // padding: 12px 16px;
+  // height: 40px;
+  // line-height: 24px;
+}
+.wpforms-container {
+  width: 60%;
+}
+.ast-footer-social-1-wrap .ast-builder-social-element svg {
+  width: 18px;
+  height: 18px;
+}
+.ast-footer-social-1-wrap .ast-social-color-type-custom svg {
+  fill: #1bae70;
+}
+.ast-builder-social-element {
+  line-height: 1;
+  color: #3a3a3a;
+  background: transparent;
+  vertical-align: middle;
+  transition: all 0.01s;
+  margin-left: 6px;
+  margin-right: 6px;
+  justify-content: center;
+  align-items: center;
+}
+.wp-block-heading {
+  font-size: 20px;
+  font-family: "El Messiri", sans-serif !important;
+  margin-bottom: 20px;
+  color: #14261c;
+  line-height: 1.2em;
+}
+.text-red {
+  color: red;
+}
+.select-options {
+  background: #1bae70 !important;
+  border-color: #1bae70 !important;
+  color: #fff !important;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  cursor: pointer;
+  line-height: 1em;
+}
+.select-options:hover {
+  background: #06752e !important;
+  border-color: #06752e !important;
+  color: #fff !important;
+}
+* {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans,
+    Ubuntu, Cantarell, Helvetica Neue, sans-serif !important;
+}
+.bggray {
+  background: #eeeeee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 80px;
+  display: flex;
+  width: 100%;
+  // height: 382px;
+}
+.econ {
+  max-width: 1300px;
+  min-height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-column-gap: 50px;
+  // align-items: center;
+  grid-template-columns: 1fr 2fr;
+}
+
+.widget:last-child {
+  margin-bottom: 0;
+}
+.widget {
+  margin: 0 0 2.8em 0;
+}
+ul,
+li {
+  margin: 0;
+  list-style-type: none;
+  border: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  outline: 0;
+  line-height: 1.65;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+li {
+  transition: all 0.2s linear;
+  a {
+    color: #1bae70;
+    text-decoration: none;
+    font-weight: 400;
+  }
+}
+@media screen and (max-width: 991px) {
+  .footer {
+    .footer-content {
+      flex-direction: column;
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer {
+    .footer-content {
+      flex-direction: column;
+    }
+  }
+  li a {
+    font-size: 14px !important;
+  }
+  .site-footer-above-section-1 {
+    margin-bottom: 20px;
+  }
+  .ast-builder-footer-grid-columns {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .wpforms-container {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,54 @@
+.pl-80 {
+  padding-left: 80px !important;
+}
+.userDp {
+  width: 40px;
+  height: 40px;
+  // background-color: #218838;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+.background-image-container {
+  height: 300px;
+  width: 100%;
+  background: url("../../../assets/chrylys/Ibis-1.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.dp-tab {
+  width: 100%;
+  height: 50px;
+  background: #d9d7d7;
+  color: #000;
+  display: flex;
+  justify-content: center;
+}
+.dp_placementdash {
+  width: 120px;
+  height: 120px;
+  background: burlywood;
+  border-radius: 10px;
+}
+.f-26 {
+  font-size: 26px !important;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.upload-text {
+  color: #888;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.dp_placementdash {
+  background-size: cover;
+  background-position: center;
+}
+.background-image-container {
+  background-size: contain;
+  background-position: center;
+  background-size: cover !important;
+}

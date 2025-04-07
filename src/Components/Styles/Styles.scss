@@ -1,0 +1,11 @@
+img{
+    object-fit: cover;
+}
+.gallery-item .prodimg img:hover{
+    transform: scale(1.05);
+    transition: 0.7s;
+}
+.prodimg img:hover{
+    transform: scale(1.05);
+    transition: 0.7s;
+}

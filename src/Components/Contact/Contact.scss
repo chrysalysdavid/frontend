@@ -1,0 +1,61 @@
+.e-con-innerC {
+  gap: 0;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-top: 107px;
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+  height: 100%;
+}
+.EContact {
+  display: flex;
+}
+.title {
+  font-family: "El Messiri", Sans-serif;
+  font-size: 46px;
+}
+
+.Con-Dot-line {
+  width: 100%;
+  height: 27px;
+}
+.bgborder {
+  background-image: url("../../assets/Dot line.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.ECon {
+  width: 1300px;
+  margin: 0 auto;
+  margin-top: 40px;
+  align-items: stretch;
+}
+.fit-height {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+@media screen and (max-width: 991px) {
+  .ECon {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    align-items: stretch;
+  }
+  .e-con-innerC {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .e-con-innerC {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

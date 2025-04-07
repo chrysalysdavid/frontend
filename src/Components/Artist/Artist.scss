@@ -1,0 +1,77 @@
+.e-con-inner {
+  gap: 0;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-top: 107px;
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+  height: 100%;
+}
+.titleSize {
+  font-size: 46px;
+}
+.ArtistStylee {
+  position: relative;
+}
+.Name_pos {
+  text-transform: uppercase;
+  position: absolute;
+  color: #fff;
+  bottom: 10px;
+  z-index: 999;
+  width: 60%;
+  left: 10%;
+  text-align: center;
+  margin: 0 14px;
+  p {
+    margin: 0;
+    background: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    padding: 5px !important;
+    font-size: 18px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: "El Messiri", sans-serif;
+  }
+}
+.rowww {
+  width: 100%;
+  img {
+    width: 275px;
+    height: 420px;
+    border-radius: 12px;
+  }
+}
+.bgborder {
+  background-image: url("../../assets/Dot line.png");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.Abt-Dot-line {
+  width: 100%;
+  height: 28px;
+  margin: 40px 0;
+}
+@media screen and (max-width: 991px) {
+  .rowww {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .rowww {
+    flex-direction: column;
+  }
+  .ArtistStylee {
+    width: 100% !important;
+  }
+  .rowww img {
+    width: 100%;
+    height: 420px;
+  }
+  .Name_pos {
+    width: 74% !important;
+  }
+}

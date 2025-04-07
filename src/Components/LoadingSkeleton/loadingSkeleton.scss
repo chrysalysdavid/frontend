@@ -1,0 +1,100 @@
+.skeleton {
+  background-color: #f0f0f0;
+  animation: skeleton-loading 1.5s infinite ease-in-out;
+  border-radius: 4px;
+}
+
+.skeleton-header {
+  height: 20px;
+  width: auto;
+}
+
+.skeleton-cell {
+  height: 20px;
+  width: auto;
+  margin: 5px 0;
+}
+
+.skeleton-card-header {
+  height: 20px;
+  width: auto;
+  margin-bottom: 15px;
+}
+
+.skeleton-card-title {
+  height: 15px;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.skeleton-card-text {
+  height: 15px;
+  width: 60%;
+  margin-bottom: 10px;
+}
+
+.skeleton-card-footer {
+  height: 15px;
+  width: 40%;
+  margin-top: 20px;
+}
+
+.skeleton-section-header {
+  height: 30px;
+  width: 60%;
+  margin-bottom: 15px;
+}
+
+.skeleton-section-content {
+  height: 15px;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+.skeleton-section-footer {
+  height: 15px;
+  width: 40%;
+}
+
+/* New product-specific skeleton styles */
+.product-loading-skeleton {
+  width: 100%;
+  max-width: 300px;
+  margin: 10px;
+}
+
+.skeleton-card-image {
+  height: 200px;
+  background-color: #e0e0e0;
+  margin-bottom: 15px;
+}
+
+.skeleton-card-title {
+  height: 20px;
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+.skeleton-card-text {
+  height: 15px;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.skeleton-card-price {
+  height: 20px;
+  width: 40%;
+  margin-top: 10px;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: #f0f0f0;
+  }
+  50% {
+    background-color: #e0e0e0;
+  }
+  100% {
+    background-color: #f0f0f0;
+  }
+}

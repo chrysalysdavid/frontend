@@ -1,0 +1,111 @@
+th,
+td {
+  font-size: 14px;
+}
+th {
+  background: #f1f1f1 !important;
+  padding: 16px 8px !important;
+  border: none !important;
+  // font-family: "El Messiri", sans-serif !important;
+}
+.br-30 {
+  border-radius: 30px !important;
+}
+td {
+  padding: 16px 8px !important;
+  border: none;
+  border-bottom: 0.5px solid #f1f1f1 !important;
+  vertical-align: middle !important;
+  font-weight: 400 !important;
+  background: #f1f1f1 !important;
+  // font-family: "El Messiri", sans-serif !important;
+}
+.border-radius-6pxf {
+  border-radius: 6px 0 0 6px;
+}
+.border-radius-6pxl {
+  border-radius: 0 6px 6px 0;
+}
+* {
+  font-family: "El Messiri", sans-serif;
+}
+.w-70 {
+  width: 70%;
+}
+.text-capitalize {
+  text-transform: capitalize !important;
+}
+.f-12 {
+  font-size: 12px !important;
+}
+.m-0 {
+  margin: 0 !important;
+}
+.e-con {
+  max-width: 1300px;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+.ml-9 {
+  margin-left: 9rem;
+}
+
+.table-div {
+  overflow-x: auto;
+  .table {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    tr:first-child th:first-child {
+      border-top-left-radius: 10px; /* Top-left corner */
+    }
+    tr:first-child th:last-child {
+      border-top-right-radius: 10px; /* Top-right corner */
+    }
+    tr:last-child th:first-child {
+      border-bottom-left-radius: 10px; /* Bottom-left corner */
+    }
+    tr:last-child th:last-child {
+      border-bottom-right-radius: 10px; /* Bottom-right corner */
+    }
+    tr:first-child td:first-child {
+      border-top-left-radius: 10px; /* Top-left corner */
+    }
+    tr:first-child td:last-child {
+      border-top-right-radius: 10px; /* Top-right corner */
+    }
+    tr:last-child td:first-child {
+      border-bottom-left-radius: 10px; /* Bottom-left corner */
+    }
+    tr:last-child td:last-child {
+      border-bottom-right-radius: 10px; /* Bottom-right corner */
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  table {
+    font-size: 0.875rem;
+  }
+
+  td,
+  th {
+    padding: 0.5rem;
+    white-space: nowrap;
+  }
+
+  .f-12 {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .bg-success {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .fw-bold {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,64 @@
+.py-4 {
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
+}
+.bg-gray {
+  background-color: #f1f1f1;
+}
+th,
+td {
+  font-size: 14px;
+}
+.border-radius-6pxf {
+  border-radius: 6px 0 0 6px;
+  margin-left: 20px;
+}
+.border-radius-6pxl {
+  border-radius: 0 6px 6px 0;
+}
+
+.text-primary-new {
+  color: #1bae70;
+}
+
+th {
+  background: #f1f1f1 !important;
+  padding: 16px 8px !important;
+  border: none !important;
+  // font-family: "El Messiri", sans-serif !important;
+}
+.br-30 {
+  border-radius: 30px !important;
+}
+td {
+  padding: 16px 8px !important;
+  border: none;
+  border-bottom: 0.5px solid #f1f1f1 !important;
+  vertical-align: middle !important;
+  font-weight: 400 !important;
+  background: #f1f1f1 !important;
+  // font-family: "El Messiri", sans-serif !important;
+}
+
+.report-table-div {
+  .table {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  table {
+    font-size: 0.875rem;
+  }
+
+  td,
+  th {
+    padding: 0.5rem;
+    white-space: nowrap;
+  }
+
+  .f-12 {
+    font-size: 0.75rem;
+  }
+}
